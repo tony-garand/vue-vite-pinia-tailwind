@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-lg.router-link-active,
+.text-lg.router-link-exact-active {
+    border-bottom:4px solid #4139FF;
+}
