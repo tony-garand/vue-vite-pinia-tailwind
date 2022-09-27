@@ -11,7 +11,7 @@
     "allowSyntheticDefaultImports": true,
     "lib": ["esnext", "dom"],
     "skipLibCheck": true,
-    "types": ["vite/client", "cypress"],
+    "types": ["vite/client", "cypress", "node"],
     "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }],
     "paths": {
       "@/*": ["./src/*"]
