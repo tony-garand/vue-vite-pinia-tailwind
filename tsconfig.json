@@ -17,12 +17,5 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "src/**/*.ts",
-    "tests/**/*.spec.ts",
-    "tests/**/*.test.ts",
-    "src/**/*.d.ts",
-    "src/**/*.vue"
-  ],
   "exclude": ["node_modules", "dist", "public"]
 }
