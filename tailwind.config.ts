@@ -34,7 +34,7 @@ module.exports = {
         })
         isFirefoxRule.append(container.nodes)
         container.append(isFirefoxRule)
-        isFirefoxRule.walkRules((rule) => {
+        isFirefoxRule.walkRules((rule: { selector: string | any[] }) => {
           rule.selector = `.${e(`firefox${separator}${rule.selector.slice(1)}`)}`
         })
       })
