@@ -27,7 +27,7 @@
     "vue-router": "~4.0"
   },
   "devDependencies": {
-    "@cypress/vite-dev-server": "3.1.1",
+    "@cypress/vite-dev-server": "3.2.0",
     "@cypress/vue": "4.2.0",
     "@pinia/testing": "^0.0.9",
     "@rollup/plugin-inject": "^4.0.4",
