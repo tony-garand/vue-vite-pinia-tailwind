@@ -14,7 +14,7 @@
     "test:ci-e2e": "cypress run --headless"
   },
   "dependencies": {
-    "@vueuse/core": "^8.5.0",
+    "@vueuse/core": "^9.3.0",
     "@vueuse/head": "~0.7",
     "d3": "^7.4.4",
     "ethers": "^5.6.8",
