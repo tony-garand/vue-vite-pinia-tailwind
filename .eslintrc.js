@@ -1,17 +1,11 @@
 module.exports = {
   root: true,
   env: {
-    node: true,
+    node: true
   },
-  extends: [
-    'plugin:vue/vue3-recommended',
-    '@vue/typescript/recommended',
-    'plugin:security/recommended',
-    'prettier',
-    './.eslintrc-auto-import.json',
-  ],
+  extends: ['plugin:vue/vue3-recommended', '@vue/typescript/recommended', 'plugin:security/recommended', 'prettier', './.eslintrc-auto-import.json', 'plugin:storybook/recommended'],
   parserOptions: {
-    ecmaVersion: 2021,
+    ecmaVersion: 2021
   },
   rules: {
     'no-var': 'error',
@@ -19,12 +13,12 @@ module.exports = {
     'vue/first-attribute-linebreak': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'comma-dangle': ['error', 'only-multiline'],
+    'comma-dangle': ['error', 'only-multiline']
   },
   globals: {
     defineProps: 'readonly',
     defineEmits: 'readonly',
     defineExpose: 'readonly',
-    withDefaults: 'readonly',
-  },
-}
+    withDefaults: 'readonly'
+  }
+};
