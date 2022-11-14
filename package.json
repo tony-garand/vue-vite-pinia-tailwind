@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^9.3.0",
-    "@vueuse/head": "~0.9",
+    "@vueuse/head": "~1.0",
     "d3": "^7.4.4",
     "ethers": "^5.6.8",
     "pinia": "~2.0",
